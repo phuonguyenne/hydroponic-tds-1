@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "php -S 0.0.0.0:$PORT",
+    "env": {
+      "PHP_VERSION": "8.2"
+    }
+  }
+}
